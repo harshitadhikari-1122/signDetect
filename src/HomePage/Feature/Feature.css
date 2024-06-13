@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-family: "Poppins", sans-serif;
+   --font-weight: 400;
+    --font-style: normal;
+    --font-family-1: "Nunito Sans", sans-serif;
+}
+.feature-container{
+    width:91%;
+    margin: 0 auto;
+    margin-bottom:4rem;
+}
+.feature-head h1{
+   font-size:35px;
+   color:#F48C06;
+   font-family: var(--font-family);
+}
+.feature-head span{
+    color:#2F327D;
+}
+.features-details-container{
+    display: flex;
+    width:95%;
+    margin: 0 auto;
+    gap:100px;
+    margin-top: 5rem;
+}
+.feature-block{
+    background-color: #fff;
+    box-shadow: 2px 4px 2px 4px rgba(0,0,0,0.1);
+    height:300px;
+    width:320px;
+}
+.feature-block-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:60px;
+    height:60px;
+    margin: 0 auto;
+    margin-top:-1.5rem;
+    border-radius:50px;
+}
+.feature-block-img img{
+    width:35px;
+    height: 35px;
+}
+
+.feature-block-img-translate{
+    background-color: #5B72EE;
+}
+.feature-block-img-book{
+    background-color: #F48C06;
+}
+.feature-block-img-ui{
+    background-color: #29B9E7;
+}
+.feature-block-details{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.feature-details-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1.5rem;
+}
+.feature-details-head h2{
+    font-family: var(--font-family-1);
+    font-size:23px;
+    color:#2F327D;
+}
+.feature-details-para{
+    width:78%;
+    margin: 0 auto;
+}
+.feature-details-para p{
+   font-family: var(--font-family);
+   font-size:15px;
+   line-height:26px;
+}

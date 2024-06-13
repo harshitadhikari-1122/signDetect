@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-family: "Poppins", sans-serif;
+   --font-weight: 400;
+    --font-style: normal;
+    --font-family-1: "Nunito Sans", sans-serif;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    width: 91%;
+    margin: 0 auto;
+    margin-top:7rem;
+    margin-bottom: 5rem;
+    gap:50px;
+}
+.mission-container {
+    background-image: url('../images/deal-peopls.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    color: #fff;
+    width: 45%; 
+    height:350px;
+    box-shadow:1px 2px 3px rgba(0,0,0,0.3);
+}
+.mission-inside-container{
+    background-color: #fff;
+    color:#000;
+    width:250px;
+    height:250px;
+    margin-left:-2rem;
+    margin-top:7rem;
+    border-top:6px solid #F48C06;
+    border-bottom:6px solid #2F327D;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px 0px 0px 9px;
+}
+.mission-head h5{
+    font-size:26px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color:#F48C06;
+    letter-spacing: 1px;
+}
+.mission-head span{
+    color:#2F327D;
+}
+.mission-para p{
+    font-size:15px;
+    width:90%;
+    line-height:23px;
+    font-family: var(--font-family-1);
+    letter-spacing: 1px;
+}
+
+.initutives {
+    background-image: url('../images/pexels-signing-laptop.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    color: #fff;
+    width: 45%; 
+    height:350px;
+    box-shadow:1px 2px 3px rgba(0,0,0,0.3);
+}
+.initutive-inside-container{
+    background-color: #fff;
+    color:#000;
+    width:270px;
+    height:310px;
+    margin-left:5rem;
+    margin-top:-7rem;
+    border-top:6px solid #F48C06;
+    border-bottom:6px solid #2F327D;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px 0px 0px 15px;
+}
+
+.initutives-head h5{
+    font-size:26px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color:#F48C06;
+    letter-spacing: 1px;
+}
+.initutives-head span{
+    color:#2F327D;
+}
+.initutive-para p{
+    font-size:15px;
+    width:90%;
+    line-height:23px;
+    font-family: var(--font-family-1);
+    letter-spacing: 1px;
+}

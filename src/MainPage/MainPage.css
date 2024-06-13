@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-family: "Poppins", sans-serif;
+   --font-weight: 400;
+    --font-style: normal;
+    --font-family-1: "Nunito Sans", sans-serif;
+}
+.sign-detect{
+    display:flex;
+    flex-direction: column;
+}
+.main-header-container-color{
+    background-color:#FFF2E1;
+    height:100vh;font-variation-settings: ;
+}
+
+.sign_detect-container{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin: 0 auto;  
+}
+.sign-logo{
+    margin-top:-5rem;
+}
+.sign-logo img{
+    width:260px;
+    height:260px;
+}
+.sign-header-links nav ul{
+    display: flex;
+    gap:60px;
+    margin-top:2.5rem;
+}
+.sign-header-links nav ul li{
+    list-style-type: none;
+}
+.sign-header-links nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+}
+.sign-header-links nav ul li a:hover{
+    border-bottom:2px solid #F48C06;
+}
+.welcome-intro-mes{
+    width:80%;
+    margin: 0 auto;
+    margin-top:-3.1rem;
+}
+.left-welcome-messgae{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:5rem;
+}
+.messages-cont{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.welcome-header h1 {
+    color:#F48C06;
+    font-family: var(--font-family-1);
+    font-size:40px;
+    letter-spacing: 1px;
+}
+.welcome-header h1 span{
+    color:#2F327D;
+}
+.welcome-para p{
+    font-size:22px;
+    font-family: var(--font-family-1);
+}
+.button-icon-to-new{
+    display: flex;
+    margin-top:1.5rem;
+    gap:20px;
+}
+.sign-detect-model,
+.sign-video-call{
+    background-color: #F48C06;
+    height:50px;
+    width:140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+}
+.sign-detect-model a,
+.sign-video-call a{
+    text-decoration: none;
+    color:#fff;
+}
